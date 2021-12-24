@@ -211,7 +211,7 @@ botonActualizar=Button(iFrame2, text="Update")
 botonActualizar.grid(row=0, column=2, pady=10, padx=10, sticky="e")
 
 botonLeer=Button(iFrame2, text="Read" , command=LeerFichero)
-botonLeer.grid(row=0, column=2, pady=10, padx=10, sticky="e")
+botonLeer.grid(row=0, column=3, pady=10, padx=10, sticky="e")
 
 
 root.mainloop()
